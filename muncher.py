@@ -24,8 +24,8 @@ def ip_connection(host_list):
             print(f'Port: {x} is {result}')
             if result == 'open':
                 open_target = (target, x)
-                user = *This will be the target's username
-                pw = *this will be the target's password
+                user = #This will be the target's username
+                pw = #this will be the target's password
                 try:
                     sock.connect(open_target)
                 except Exception as sock_err:
